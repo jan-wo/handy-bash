@@ -1,6 +1,6 @@
 # handy-bash
 ### Small library of usefull bash scripts
-Note that symbols ($number) in the following list represents positional arguments. Inspect scripts for more details.
+Note that symbols ($number) in the following list represent positional arguments. Inspect scripts for more details.
 
 
 ### short descriptions:
