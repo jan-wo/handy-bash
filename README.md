@@ -5,4 +5,4 @@ Note that symbols ($number) in the following list represents positional argument
 
 ### short descriptions:
 1. **replace_line.sh**: replace ($1) line with ($2) text for all files with given ($3) extension
-2. **rename.sh**: changes specified ($2) extension of all files in current working directory to ($2) another
+2. **rename.sh**: changes specified ($1) extension of all files in current working directory to ($2) another
