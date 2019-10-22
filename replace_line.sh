@@ -1,8 +1,13 @@
 #!/bin/bash
 
+#  Usage:
+#  ./replace_line <line number> <text to put> <extension (without dot)>
 
-var=$1 # New content
 
-for file in *.xyz; do
-    sed -i "2s/.*/$var/" $file
+line=$1         # Line number
+replacement=$2  # New content
+extension=$3    # extension of affected files
+
+for file in `eval echo *.$extension`; do
+    sed -i "$line""s/.*/$replacement/" $file
 done
